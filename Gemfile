@@ -33,7 +33,7 @@ group :development do
 end
 
 group :test do
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 2.12.1"
   #gem "rspactor"
   #gem "rcov"
   #gem "ZenTest"
