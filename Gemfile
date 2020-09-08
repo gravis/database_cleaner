@@ -40,7 +40,7 @@ group :test do
 end
 
 group :cucumber do
-  gem "cucumber"
+  gem "cucumber", ">= 4.0.0"
 end
 
 platforms :mri_18 do
