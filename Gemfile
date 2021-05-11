@@ -6,7 +6,7 @@ group :development do
   #gem "ruby-debug"
 
   gem "bundler"
-  gem "jeweler"
+  gem "jeweler", ">= 1.8.4"
 
   gem "json_pure"
 
@@ -33,7 +33,7 @@ group :development do
 end
 
 group :test do
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 2.12.1"
   #gem "rspactor"
   #gem "rcov"
   #gem "ZenTest"
