@@ -16,7 +16,7 @@ group :development do
     gem "dm-migrations"
     gem "dm-sqlite-adapter"
   gem "mongoid"
-    gem "tzinfo"
+    gem "tzinfo", ">= 0.3.61"
     gem "mongo_ext"
     gem "bson_ext"
   gem "mongo_mapper"
