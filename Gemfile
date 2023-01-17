@@ -18,7 +18,7 @@ group :development do
   gem "mongoid"
     gem "tzinfo"
     gem "mongo_ext"
-    gem "bson_ext"
+    gem "bson_ext", ">= 1.12.0"
   gem "mongo_mapper"
   gem "couch_potato"
   gem "sequel",               "~>3.21.0"
