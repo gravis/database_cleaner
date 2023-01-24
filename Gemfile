@@ -11,15 +11,15 @@ group :development do
   gem "json_pure"
 
   #ORM's
-  gem "activerecord"
+  gem "activerecord", ">= 6.1.7.1"
   gem "datamapper"
     gem "dm-migrations"
     gem "dm-sqlite-adapter"
-  gem "mongoid"
+  gem "mongoid", ">= 7.0.12"
     gem "tzinfo"
     gem "mongo_ext"
     gem "bson_ext"
-  gem "mongo_mapper"
+  gem "mongo_mapper", ">= 0.13.0"
   gem "couch_potato"
   gem "sequel",               "~>3.21.0"
   #gem "ibm_db"  # I don't want to add this dependency, even as a dev one since it requires DB2 to be installed
