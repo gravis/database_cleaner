@@ -20,7 +20,7 @@ group :development do
     gem "mongo_ext"
     gem "bson_ext"
   gem "mongo_mapper"
-  gem "couch_potato"
+  gem "couch_potato", ">= 1.18.0"
   gem "sequel",               "~>3.21.0"
   #gem "ibm_db"  # I don't want to add this dependency, even as a dev one since it requires DB2 to be installed
   gem 'mysql', '~> 2.8.1'
