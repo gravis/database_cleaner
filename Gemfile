@@ -6,7 +6,7 @@ group :development do
   #gem "ruby-debug"
 
   gem "bundler"
-  gem "jeweler"
+  gem "jeweler", ">= 1.8.5"
 
   gem "json_pure"
 
@@ -15,11 +15,11 @@ group :development do
   gem "datamapper"
     gem "dm-migrations"
     gem "dm-sqlite-adapter"
-  gem "mongoid"
+  gem "mongoid", ">= 7.0.12"
     gem "tzinfo"
     gem "mongo_ext"
     gem "bson_ext"
-  gem "mongo_mapper"
+  gem "mongo_mapper", ">= 0.15.0"
   gem "couch_potato"
   gem "sequel",               "~>3.21.0"
   #gem "ibm_db"  # I don't want to add this dependency, even as a dev one since it requires DB2 to be installed
@@ -33,7 +33,7 @@ group :development do
 end
 
 group :test do
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 2.12.2"
   #gem "rspactor"
   #gem "rcov"
   #gem "ZenTest"
