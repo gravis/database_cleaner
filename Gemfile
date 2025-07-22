@@ -29,11 +29,11 @@ group :development do
   gem 'sqlite3'
   gem 'ohm', '~> 0.1.3'
 
-  gem 'guard-rspec'
+  gem 'guard-rspec', '>= 2.4.0'
 end
 
 group :test do
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 2.12.2"
   #gem "rspactor"
   #gem "rcov"
   #gem "ZenTest"
