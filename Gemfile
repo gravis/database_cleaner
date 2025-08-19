@@ -11,7 +11,7 @@ group :development do
   gem "json_pure"
 
   #ORM's
-  gem "activerecord"
+  gem "activerecord", ">= 7.1.5.2"
   gem "datamapper"
     gem "dm-migrations"
     gem "dm-sqlite-adapter"
