@@ -15,7 +15,7 @@ group :development do
   gem "datamapper"
     gem "dm-migrations"
     gem "dm-sqlite-adapter"
-  gem "mongoid"
+  gem "mongoid", ">= 7.6.1"
     gem "tzinfo"
     gem "mongo_ext"
     gem "bson_ext"
